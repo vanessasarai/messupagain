@@ -1,0 +1,166 @@
+/* CSS Reset */
+
+
+* {margin: 0; padding: 0; border: 0; }
+
+body {
+    margin:0;
+    font-family: 'Borel', 'Montserrat Alternates';
+    color: black;
+    background-color: :#FFE348;
+}
+
+h1 {
+    font-family: 'Montserrat Alternates';
+    color: white;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Borel';
+    color: #FFE348;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Borel';
+    color: #FFE348;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    color: white;
+    font-size: 20px; 
+}
+
+h5 {
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+
+.navright h5{
+    font-family: 'Montserrat Alternates';
+     font-weight: 600;
+     color: white;
+     font-size: 20px;
+     padding-right: 2em;
+ }
+ .navright a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .navright a:hover {
+     color:black;
+ }
+ a:hover, a:visited, a:link, a:active {
+     text-decoration: none;
+ }
+ 
+ .navleft {
+     margin-top: 80px;
+     margin-left: 300px;
+ }
+ .navright {
+     display: flex;
+     margin-left: 900px;
+     margin-top: -45px;
+ }
+
+.nutrition h1 {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.nutrition {
+margin-top: 30px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    margin-left: 300px;
+}
+
+.content {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 20%;
+    transform: translateY (-20%);
+    text-align: center;
+}
+
+.benefits {
+   margin-top: 100px;
+}
+
+.benefits h1 {
+    text-align: center;
+}
+
+.benefits h3 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.container img {
+    margin-top: -20px;
+}
+.information {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.information h4 {
+    padding-bottom: 1em;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    padding: 50pt 0pt 50pt 0pt;
+    margin: 0;
+    margin-top: 50pt;
+}
+
+footer img {
+    font-size:20px;
+    float:left;
+    margin-left: 300px;
+}
+
+footer h4 {
+    color:black;
+    float:left;
+    margin-left: 600px;
+    font-family:'Montserrat Alternates';
+    font-size:13px;
+    font-weight: 500;
+}
+
+footer a {
+    text-decoration: none;
+    color:black;
+}

@@ -1,0 +1,158 @@
+/* CSS Reset */
+
+
+* {margin: 0; padding: 0; border: 0; }
+
+body {
+    margin:0;
+    font-family: 'Borel', 'Montserrat Alternates';
+    color: black;
+    background-image: url ("Images/halfbackground.png");
+    line-height: 1.2;
+}
+
+
+h1 {
+    font-family: 'Montserrat Alternates';
+    font-size: 160px;
+    color:  white;
+}
+
+h3 {
+    font-family: 'Borel';
+    font-size: 25px;
+}
+
+
+.navright h5{
+   font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    padding-right: 2em;
+}
+.navright a {
+    text-decoration: none;
+    color: white;
+}
+
+.navright a:hover {
+    color:black;
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.navleft {
+    margin-top: 80px;
+    margin-left: 300px;
+}
+.navright {
+    display: flex;
+    margin-left: 900px;
+    margin-top: -45px;
+}
+
+/*Buttons*/
+.left button {
+    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: #FFE348;
+    color: white ;
+    background:#FFE348;
+    display: inline-block;
+}
+
+.left button:hover {
+    background-color: white;
+    color:#FFE348;
+    border-color: white;
+}
+.right button {
+    font-size: 20px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: white;
+    color: #FFE348 ;
+    background:white;
+    display: inline-block;
+}
+
+.right button:hover {
+    background-color:#FFE348;
+    color: white;
+    border-color:#FFE348;
+}
+.left {
+    margin-top: 150px;
+    display: grid;
+    justify-items: center;
+    float: left;
+    margin-left: 300px;
+    padding-bottom: 60px
+}
+
+.left button {
+    margin-top: 2em;
+}
+
+.img {
+    margin-top: 150px;
+    position: absolute;
+    left: 600px;
+    z-index: 1;
+}
+
+.right {
+    margin-top: 150px;
+    display: grid;
+    justify-items: center;
+    margin-right: 250px;
+    z-index:-1;
+    padding-bottom: 60px;
+}
+
+.right h1 {
+    margin-left: 120px;
+}
+.right button {
+    margin-top: 3.5em;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    padding: 50pt 0pt 50pt 0pt;
+    margin: 0;
+    margin-top: 50pt;
+}
+
+footer img {
+    font-size:20px;
+    float:left;
+    margin-left: 300px;
+}
+
+footer h4 {
+    color:black;
+    float:left;
+    margin-left: 600px;
+    font-family:'Montserrat Alternates';
+    font-size:13px;
+    font-weight: 500;
+}
+
+footer a {
+    text-decoration: none;
+    color:black;
+}
+

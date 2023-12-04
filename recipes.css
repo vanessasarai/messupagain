@@ -1,0 +1,95 @@
+/* CSS Reset */
+
+* {margin: 0; padding: 0; border: 0; }
+
+body {
+    margin: 0;
+    font-family: 'Borel', 'Montserrat Alternates';
+    color: white;
+}
+
+h5 {
+    font-family: 'Borel';
+    font-size: 25px;
+    color:black;
+}
+
+h1 {
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 160px;
+    padding-top: 10pt;
+    padding-bottom: 15pt;
+}
+
+.navright h5{
+    font-family: 'Montserrat Alternates';
+     font-weight: 600;
+     color: white;
+     font-size: 20px;
+     padding-right: 2em;
+ }
+ .navright a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .navright a:hover {
+     color:black;
+ }
+ a:hover, a:visited, a:link, a:active {
+     text-decoration: none;
+ }
+ 
+ .navleft {
+     margin-top: 80px;
+     margin-left: 300px;
+ }
+ .navright {
+     display: flex;
+     margin-left: 900px;
+     margin-top: -45px;
+ }
+
+.images {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    align-items: center;
+    margin-left: 23%;
+}
+
+.images img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    padding: 50pt 0pt 50pt 0pt;
+    margin: 0;
+    margin-top: 50pt;
+}
+
+footer img {
+    font-size:20px;
+    float:left;
+    margin-left: 300px;
+}
+
+footer h4 {
+    color:black;
+    float:left;
+    margin-left: 600px;
+    font-family:'Montserrat Alternates';
+    font-size:13px;
+    font-weight: 500;
+}
+
+footer a {
+    text-decoration: none;
+    color:black;
+}
+
